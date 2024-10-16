@@ -1,0 +1,37 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 16/10/2024
+Empresa: Abstergo Industries 
+Responsável: Vinícius Corrêa    
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Vinícius Corrêa. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- Maquina virtual (EC2)
+- redução de custos com insfraestrutura física
+- Elimina a necessidade de comprar e manter servidores fisicos, redes de infraestrutura de datacenters. Além de ser pago conforma a necessidade de uso, evitando manter equipamentos ociosos
+
+Etapa 2: 
+- Amazon S3 Intelligent-Tiering
+- Armazenamento
+- Movimenta automaticamente os dados entre diferentes camadas de armazenamento(frequente e infrequente), otimizando os custos sem impacto na performance.
+
+Etapa 3: 
+- Amazon VPN
+- Conexão 
+-Oferece Conectividade segura entre a infraestrutura local(on-premises) e a nuvem da AWS. Emobra o principal beneficio da VPN seja a segurança na comunicação entre redes, ela pode contribuir para a redução de custos em algumas situações depdendendo do caso de uso. 
+
+
+
+## Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado Redução de custos de infraestrutura fisica, em armazenamento, além de uma conexão segura, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+
+
+Assinatura do Responsável pelo Projeto:
+
+[Vinícius Corrêa]
