@@ -1,0 +1,30 @@
+
+RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA
+Data: 20/10/2024
+Empresa: Abstergo Industries
+Responsável: Vinícius Corrêa
+
+Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por [nome do responsável pelo projeto]. O objetivo do projeto foi elencar 3 medidas de segurança em conjunto com os serviços da AWS, com a finalidade de aumentar a segurança da empresa.
+
+Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança. A seguir, serão descritas as etapas da implementação:
+
+Medida 1: Implementação do AWS Identity and Access Management (IAM)
+Caso de uso: Foi configurado o AWS IAM para gerenciar o acesso a recursos e serviços na nuvem, criando políticas granulares que restringem o acesso a usuários e grupos, conforme suas funções na empresa. O IAM permite definir quem tem acesso a quais serviços, evitando acessos não autorizados.
+Benefício: Garantir que apenas usuários devidamente autorizados possam acessar e modificar recursos, reduzindo o risco de violações de segurança.
+Medida 2: Implementação do AWS CloudTrail para auditoria e rastreamento de atividades
+Caso de uso: O AWS CloudTrail foi ativado para registrar todas as atividades de API dentro da conta da AWS, permitindo rastrear quem fez quais ações e quando. Isso inclui modificações em instâncias, alterações de políticas de segurança e atividades relacionadas ao gerenciamento de chaves.
+Benefício: Fornece visibilidade total sobre as atividades realizadas nos recursos da AWS, permitindo auditorias e facilitando a identificação de possíveis ameaças ou atividades suspeitas.
+Medida 3: Implementação do AWS Shield para proteção contra ataques DDoS
+Caso de uso: Foi ativado o AWS Shield Standard para proteger os recursos da empresa contra ataques DDoS (Distributed Denial of Service). Esse serviço oferece proteção automática contra tráfego malicioso que visa sobrecarregar e interromper a operação dos servidores.
+Benefício: Proteger a infraestrutura contra ataques que podem causar downtime e afetar a disponibilidade dos serviços online, garantindo a continuidade do negócio.
+Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado o aumento da segurança, confiabilidade e visibilidade dos sistemas em nuvem, o que contribuirá para proteger os dados sensíveis e garantir a conformidade com regulamentos de segurança. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+Anexos
+Manuais de configuração das ferramentas
+Planilhas de acessos IAM
+Relatórios de auditoria do CloudTrail
+Assinatura do Responsável pelo Projeto:
+Vinícius Corrêa
